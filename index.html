@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f7fb" />
+  <title>Volvo Center — сервисный центр Volvo</title>
+  <meta name="description" content="Volvo Center — профильный сервисный центр Volvo: диагностика, ТО, ремонт, оригинальные запчасти и подготовка к поездкам." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#hero" aria-label="Volvo Center">
+        <img src="images/volvo-logo.png" alt="Volvo Center logo" class="site-logo">
+        <span class="brand__text">
+          <strong>Volvo Center</strong>
+          <small>профильный сервис Volvo</small>
+        </span>
+      </a>
+
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#about">О центре</a>
+        <a href="#standards">Подход</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Как работаем</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="header__cta" href="#booking">Записаться</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="eyebrow">Сервис по стандартам Volvo</div>
+          <h1>Volvo Center</h1>
+          <p>Профильный сервисный центр для автомобилей Volvo: регламентное обслуживание, точная диагностика, ремонт ходовой части, тормозной системы и электроники. Работаем с проверенными моделями Volvo.</p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--small" href="#booking">Записаться</a>
+            <a class="btn btn--ghost" href="#standards">Смотреть подход</a>
+          </div>
+
+          <ul class="hero__stats">
+            <li><strong>Официальный подход</strong><span>диагностика, согласование, контроль качества</span></li>
+            <li><strong>Гарантия до 2 лет</strong><span>на выполненные работы и установленные детали</span></li>
+            <li><strong>Приём заявок 24/7</strong><span>оставьте заявку в любое время</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero-card">
+            <div class="hero-card__top">
+              <h2 class="hero-card__title">Модели</h2>
+            </div>
+
+            <div class="models-carousel" aria-label="Карусель моделей Volvo">
+              <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Предыдущая модель">‹</button>
+              <div class="carousel-viewport">
+                <div class="carousel-track" id="carouselTrack">
+                  <figure class="carousel-slide active">
+                    <div class="carousel-card">
+                      <img src="images/XC60 I.png" alt="Volvo XC60 I" class="model-image">
+                      <figcaption>Volvo XC60 I</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/XC60 II.png" alt="Volvo XC60 II" class="model-image">
+                      <figcaption>Volvo XC60 II</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/XC90 I.png" alt="Volvo XC90 I" class="model-image">
+                      <figcaption>Volvo XC90 I</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/XC90 II.png" alt="Volvo XC90 II" class="model-image">
+                      <figcaption>Volvo XC90 II</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/S60 I.png" alt="Volvo S60 I" class="model-image">
+                      <figcaption>Volvo S60 I</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/S60 II.png" alt="Volvo S60 II" class="model-image">
+                      <figcaption>Volvo S60 II</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/S60 III.png" alt="Volvo S60 III" class="model-image">
+                      <figcaption>Volvo S60 III</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/S90 II.png" alt="Volvo S90 II" class="model-image">
+                      <figcaption>Volvo S90 II</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/V60 I.png" alt="Volvo V60 I" class="model-image">
+                      <figcaption>Volvo V60 I</figcaption>
+                    </div>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-card">
+                      <img src="images/V40.png" alt="Volvo V40" class="model-image">
+                      <figcaption>Volvo V40</figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <button class="carousel-btn carousel-btn--next" type="button" aria-label="Следующая модель">›</button>
+            </div>
+
+            <div class="carousel-dots" id="carouselDots" aria-label="Навигация по карусели"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <div class="section__label">О центре</div>
+          <h2>Качество, которое видно в каждой детали</h2>
+        </div>
+        <div class="text-box">
+          <p>Volvo Center — профильный автосервис для владельцев Volvo, которым важны аккуратное обслуживание, понятные рекомендации и честная диагностика. Мы работаем только с моделями Volvo, которые представлены на сайте, сохраняя единый высокий стандарт обслуживания.</p>
+          <p>Для нас важно, чтобы клиент понимал, что происходит с автомобилем на каждом этапе. Мы не перегружаем процесс лишними услугами, а концентрируемся на том, что реально влияет на надёжность, комфорт и безопасность Volvo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="standards">
+      <div class="container">
+        <div class="section-head">
+          <div class="section__label">Подход</div>
+          <h2>Как мы выстраиваем работу</h2>
+        </div>
+        <div class="brand-grid">
+          <article class="brand-panel brand-panel--accent">
+            <div class="brand-panel__title">Диагностика</div>
+            <p>Сначала проверяем причины, потом предлагаем решение. Это помогает не менять исправные узлы и не тратить время клиента впустую.</p>
+          </article>
+          <article class="brand-panel">
+            <div class="brand-panel__title">Согласование</div>
+            <p>Перед началом работ рассказываем, что обнаружено, что нужно сделать сейчас, а что можно отложить на следующий визит.</p>
+          </article>
+          <article class="brand-panel">
+            <div class="brand-panel__title">Комплектующие</div>
+            <p>Ориентируемся на качественные оригинальные решения и проверенные расходники, подходящие под требования Volvo.</p>
+          </article>
+          <article class="brand-panel">
+            <div class="brand-panel__title">Контроль</div>
+            <p>После ремонта автомобиль проходит финальную проверку, чтобы владелец получил машину в исправном и предсказуемом состоянии.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="section__label">Услуги</div>
+          <h2>Что чаще всего делают владельцы Volvo</h2>
+        </div>
+        <div class="cards cards--3">
+          <article class="card"><span class="card__icon">01</span><h3>Компьютерная диагностика</h3><p>Проверяем электронные блоки, ошибки, параметры двигателя, трансмиссии, ABS, ESP и вспомогательных систем безопасности.</p></article>
+          <article class="card"><span class="card__icon">02</span><h3>Плановое ТО</h3><p>Меняем масло, фильтры и технические жидкости, оцениваем состояние узлов и напоминаем о следующих сервисных интервалах.</p></article>
+          <article class="card"><span class="card__icon">03</span><h3>Двигатель и трансмиссия</h3><p>Диагностируем силовые агрегаты, систему охлаждения, коробки передач и связанные компоненты.</p></article>
+          <article class="card"><span class="card__icon">04</span><h3>Подвеска и рулевое</h3><p>Устраняем стуки, вибрации и износ элементов ходовой части, возвращая автомобилю собранность и комфорт.</p></article>
+          <article class="card"><span class="card__icon">05</span><h3>Тормозная система</h3><p>Обслуживаем колодки, диски, суппорты и тормозную жидкость, чтобы торможение оставалось стабильным в городе и на трассе.</p></article>
+          <article class="card"><span class="card__icon">06</span><h3>Подготовка к сезону</h3><p>Проверяем аккумулятор, шины, климатическую систему, охлаждение, жидкости и подвеску перед зимой, летом или поездкой.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="process">
+      <div class="container">
+        <div class="section-head">
+          <div class="section__label">Как работаем</div>
+          <h2>Путь автомобиля от заявки до выдачи</h2>
+        </div>
+        <div class="steps">
+          <article class="step"><span>1</span><h3>Заявка и уточнение задачи</h3><p>Вы оставляете обращение, а мы уточняем модель Volvo, пробег и симптомы.</p></article>
+          <article class="step"><span>2</span><h3>Осмотр и диагностика</h3><p>Проводим первичную проверку электроники, ходовой части, тормозов и расходников.</p></article>
+          <article class="step"><span>3</span><h3>Согласование работ</h3><p>Объясняем, что требует срочного решения, а что можно перенести без риска.</p></article>
+          <article class="step"><span>4</span><h3>Ремонт и контроль качества</h3><p>Выполняем работы, проверяем результат и передаём автомобиль владельцу.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <div class="section__label">Отзывы</div>
+          <h2>Что говорят владельцы Volvo</h2>
+        </div>
+        <div class="reviews">
+          <article class="review"><div class="rating">★★★★★</div><h3>Антон Романов</h3><p>Привозил XC60 на диагностику и ТО. Понравилось, что всё объяснили спокойно и без лишнего давления. Единственный нюанс — в сезон запись не всегда на следующий день, но по качеству работы вопросов не осталось.</p></article>
+          <article class="review"><div class="rating">★★★★☆</div><h3>Ирина Соколова</h3><p>Обращалась с XC90 перед поездкой. Проверили тормоза, подвеску и жидкости, дали понятные рекомендации. Хотелось бы чуть быстрее получать итоговый отчёт, но в остальном сервис оставил очень хорошее впечатление.</p></article>
+          <article class="review"><div class="rating">★★★★★</div><h3>Максим Белов</h3><p>Приезжал на S90 с шумом в подвеске. Проблему нашли быстро, всё согласовали заранее, после ремонта машина стала заметно тише. Чувствуется, что здесь действительно понимают Volvo.</p></article>
+          <article class="review"><div class="rating">★★★★☆</div><h3>Екатерина Лебедева</h3><p>Делали сезонную проверку V60 I. Всё аккуратно и по делу, без навязывания лишнего ремонта. Цены не самые низкие, но за такой уровень обслуживания это ожидаемо.</p></article>
+          <article class="review"><div class="rating">★★★★★</div><h3>Павел Никитин</h3><p>Понравилось отношение: нормальная диагностика, адекватные рекомендации и никаких попыток продать лишнее. Для Volvo это особенно важно, потому что не хочется доверять машину случайным мастерам.</p></article>
+          <article class="review"><div class="rating">★★★★☆</div><h3>Ольга Власова</h3><p>Привозила V40 на подготовку к зиме. Всё сделали аккуратно, рассказали, что лучше проверить на следующем визите. Отдельно отмечу чистую приёмку и вежливое общение.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="booking">
+      <div class="container booking">
+        <div>
+          <div class="section__label">Запись</div>
+          <h2>Оставьте заявку на обслуживание</h2>
+          <p>Напишите нам, если нужен плановый визит, диагностика или ремонт Volvo. Мы уточним модель автомобиля, симптомы и подберём удобное время посещения Volvo Center.</p>
+        </div>
+        <form class="form" id="bookingForm">
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <input type="text" placeholder="Модель Volvo" required />
+          <select required>
+            <option value="">Выберите услугу</option>
+            <option>Компьютерная диагностика</option>
+            <option>Плановое ТО</option>
+            <option>Подвеска и рулевое</option>
+            <option>Тормозная система</option>
+            <option>Подготовка к сезону</option>
+            <option>Ремонт двигателя и трансмиссии</option>
+          </select>
+          <textarea rows="4" placeholder="Кратко опишите задачу"></textarea>
+          <button class="btn btn--primary" type="submit">Отправить заявку</button>
+          <p class="form__note">Менеджер свяжется с вами по указанным контактам.</p>
+        </form>
+        <div class="success" id="success" hidden>
+          <strong>Заявка отправлена</strong>
+          <p>Мы свяжемся с вами в ближайшее время.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <div class="section__label">FAQ</div>
+          <h2>Частые вопросы</h2>
+        </div>
+        <div class="faq">
+          <details><summary>Какие автомобили Volvo вы обслуживаете?</summary><p>Volvo Center принимает автомобили Volvo XC60 I, XC60 II, XC90 I, XC90 II, S60 I, S60 II, S60 III, S90 II, V60 I и V40.</p></details>
+          <details><summary>Проводите ли вы компьютерную диагностику?</summary><p>Проводим. Проверяем электронные блоки, ошибки и параметры основных систем, чтобы точно определить источник неисправности.</p></details>
+          <details><summary>Можно ли приехать только на осмотр перед поездкой?</summary><p>Можно. Часто делаем короткую проверку перед дорогой: тормоза, подвеска, жидкости, аккумулятор и климатическая система.</p></details>
+          <details><summary>Используете ли вы оригинальные запчасти?</summary><p>В работе ориентируемся на качественные комплектующие и решения, соответствующие требованиям Volvo, особенно для ответственных узлов.</p></details>
+          <details><summary>Предоставляете ли вы гарантию на работы?</summary><p>Гарантия действует на основные работы и установленные детали, а срок зависит от вида обслуживания и выбранных комплектующих.</p></details>
+          <details><summary>Можно ли записаться заранее на удобное время?</summary><p>Да, и это особенно удобно перед сезоном или длительной поездкой, когда нагрузка на сервис выше обычного.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacts">
+      <div class="container contacts">
+        <div>
+          <div class="section__label">Контакты</div>
+          <h2>Volvo Center</h2>
+          <div class="contact-list">
+            <div><span>Телефон</span><strong>XXXXX</strong></div>
+            <div><span>E-mail</span><strong>XXXXX</strong></div>
+            <div><span>Адрес</span><strong>XXXXX</strong></div>
+            <div><span>Мессенджеры</span><strong>XXXXX</strong></div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3APLACEHOLDER&source=constructor" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Карта расположения Volvo Center"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Volvo Center. Профильный сервисный центр Volvo.</p>
+      <p>Диагностика, обслуживание и ремонт автомобилей Volvo.</p>
+    </div>
+  </footer>
+</body>
+</html>
